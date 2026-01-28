@@ -31,7 +31,7 @@ npx next dev -p 3005
 
 ## Profile picture
 
-Replace the file `public/profile-placeholder.svg` with your real profile photo **using the same filename** to update the hero image automatically.
+Replace the file `public/profile-placeholder.png` with your real profile photo **using the same filename** to update the hero image automatically.
 
 ## Deploy on Vercel
 

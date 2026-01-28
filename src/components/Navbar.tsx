@@ -104,7 +104,8 @@ export function Navbar({
         </div>
 
         <select
-          className="md:hidden w-40 rounded-xl border border-purple-100/70 bg-white/80 px-3 py-2 text-sm text-slate-800 shadow-sm dark:border-purple-400/20 dark:bg-white/5 dark:text-slate-100"
+          className="md:hidden w-40 rounded-xl border border-purple-100/70 bg-white px-3 py-2 text-sm text-slate-900 shadow-sm dark:border-purple-400/20 dark:bg-white dark:text-slate-900"
+          style={{ colorScheme: "light" }}
           value={active}
           onChange={(e) => onSelect(e.target.value as SectionId)}
           aria-label="Select section"

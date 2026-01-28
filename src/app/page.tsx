@@ -56,7 +56,7 @@ export default function Page() {
                   <div className="flex items-center gap-4">
                     <div className="relative h-28 w-28 shrink-0 overflow-hidden rounded-3xl ring-1 ring-purple-200/70 dark:ring-purple-400/20 sm:h-36 sm:w-36">
                       <Image
-                        src="/profile-placeholder.svg"
+                        src="/profile-placeholder.png"
                         alt="Pragati Kashyap profile picture"
                         fill
                         className="object-cover"
@@ -137,7 +137,7 @@ export default function Page() {
             </div>
 
             <p className="mt-6 text-xs text-slate-500 dark:text-slate-400">
-              Replace <span className="font-semibold">/public/profile-placeholder.svg</span>{" "}
+              Replace <span className="font-semibold">/public/profile-placeholder.png</span>{" "}
               with your real profile photo (same filename) to update the image automatically.
             </p>
           </SectionShell>
