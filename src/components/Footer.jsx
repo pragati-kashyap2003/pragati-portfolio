@@ -83,7 +83,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-slate-800 text-center">
           <p className="text-slate-400 text-sm flex items-center justify-center gap-2">
-            © {currentYear} Portfolio. Made with <FaHeart className="text-red-500" /> by Your Name
+            © {currentYear} Portfolio. Made with <FaHeart className="text-red-500" /> by Pragati Kashyap
           </p>
         </div>
       </div>
