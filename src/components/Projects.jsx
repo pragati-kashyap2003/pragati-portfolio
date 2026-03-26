@@ -3,6 +3,7 @@ import { useRef, useState } from 'react';
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 import { portfolioData } from '../data/portfolioData';
 
+
 const ProjectCard = ({ project, index }) => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-50px" });

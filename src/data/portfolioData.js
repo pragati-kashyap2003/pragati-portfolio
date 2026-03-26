@@ -1,19 +1,19 @@
 export const portfolioData = {
   // Personal Information
   personal: {
-    name: "Pragati Kashyap",
+    name: "Aditya Singh",
     title: "Full Stack Developer",
     tagline: "Building digital experiences that make a difference",
-    email: "pragatik353@gmail.com",
+    email: "aditya3635.333@gmail.com",
     phone: "+91 9142068536",
-    location: "Ranchi, Jharkhand",
-    avatar: "https://media.licdn.com/dms/image/v2/D5603AQHKGqKk766UzQ/profile-displayphoto-scale_400_400/B56ZjCBRVMHMAg-/0/1755601773082?e=1772064000&v=beta&t=DLpBFOFseZqaQc828tZdfDuwn61v4KERya0XgBQlyyI",
+    location: "Varanasi, Uttar Pradesh",
+    avatar: "https://drive.google.com/uc?export=view&id=1qZ_yal4YFcTWXqh_WgZSh2RmvnwDtFSU",
     cvUrl: "https://docs.google.com/document/d/1SnP54LLQj5dhSbnGSB9Vxn_vppR2e8M1qjpyTro9DRM/edit?tab=t.0", // Update this with your actual CV path
   },
 
   // Social Links
   socials: {
-    github: "https://github.com/pragati-kashyap2003",
+    github: "https://github.com/aditya-singh2004",
     linkedin: "https://www.linkedin.com/in/pragati-kashyap01/",
     twitter: "https://twitter.com/yourusername",
   },
@@ -68,8 +68,8 @@ export const portfolioData = {
     {
       id: 2,
       degree: "Intermediate",
-      institution: "Surendranath Centenary School",
-      location: "Ranchi, Jharkhand",
+      institution: "Mount Litera Zee School",
+      location: "Varanasi, Uttar Pradesh",
       period: "2020 - 2022",
      // description: "Valedictorian. Member of programming club and robotics team.",
       icon: "📚",
@@ -77,8 +77,8 @@ export const portfolioData = {
     {
       id: 2,
       degree: "Matriculate",
-      institution: "Bishop Westcott Girls' School",
-      location: "Ranchi, Jharkhand",
+      institution: "Mount Litera Zee School",
+      location: "Varanasi, Uttar Pradesh",
       period: "2019 - 2020",
      // description: "Valedictorian. Member of programming club and robotics team.",
       icon: "📚",
