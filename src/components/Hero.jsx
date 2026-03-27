@@ -4,7 +4,7 @@ import { HiChevronDown } from 'react-icons/hi';
 import { Link } from 'react-scroll';
 import { portfolioData } from '../data/portfolioData';
 const personal = {
-  avatar: '/adiimg.jpeg'
+  avatar: '/image/protfolio_img.png'
 };
 
 const Hero = () => {

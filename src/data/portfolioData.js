@@ -7,7 +7,7 @@ export const portfolioData = {
     email: "pragatikashyap2027@gmail.com",
     phone: "+91 9142068536",
     location: "Ranchi, Jharkhand",
-    avatar: "https://media.licdn.com/dms/image/v2/D5603AQHKGqKk766UzQ/profile-displayphoto-scale_200_200/B56ZjCBRVMHMAY-/0/1755601773082?e=1776297600&v=beta&t=VxSuW8eoeoFk_Njc3Pj8KrQD__yoayruoYv1N5elR5w",
+    avatar: "/image/portfolio_img.png",
     cvUrl: "https://drive.google.com/file/d/1RvVs3ib30_joNn5nQh0qZ-Yh3233YK8W/view?usp=sharing", // Update this with your actual CV path
   },
 
