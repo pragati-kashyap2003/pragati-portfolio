@@ -3,6 +3,9 @@ import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 import { HiChevronDown } from 'react-icons/hi';
 import { Link } from 'react-scroll';
 import { portfolioData } from '../data/portfolioData';
+const personal = {
+  avatar: '/adiimg.jpeg'
+};
 
 const Hero = () => {
   const { personal, socials } = portfolioData;

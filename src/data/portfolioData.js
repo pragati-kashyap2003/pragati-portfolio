@@ -1,19 +1,19 @@
 export const portfolioData = {
   // Personal Information
   personal: {
-    name: "Aditya Singh",
+    name: "Pragati Kashyap",
     title: "Full Stack Developer",
     tagline: "Building digital experiences that make a difference",
-    email: "aditya3635.333@gmail.com",
+    email: "pragatikashyap2027@gmail.com",
     phone: "+91 9142068536",
-    location: "Varanasi, Uttar Pradesh",
+    location: "Ranchi, Jharkhand",
     avatar: "https://drive.google.com/uc?export=view&id=1qZ_yal4YFcTWXqh_WgZSh2RmvnwDtFSU",
     cvUrl: "https://docs.google.com/document/d/1SnP54LLQj5dhSbnGSB9Vxn_vppR2e8M1qjpyTro9DRM/edit?tab=t.0", // Update this with your actual CV path
   },
 
   // Social Links
   socials: {
-    github: "https://github.com/aditya-singh2004",
+    github: "https://github.com/pragati-kashyap2003",
     linkedin: "https://www.linkedin.com/in/pragati-kashyap01/",
     twitter: "https://twitter.com/yourusername",
   },
@@ -58,7 +58,7 @@ export const portfolioData = {
   education: [
     {
       id: 1,
-      degree: "Bachelor of Science in Computer Science",
+      degree: "Bachelor of Technology in Computer Science & Engineering",
       institution: "Lovely Professional University",
       location: "Jalandhar, Punjab",
       period: "2023 - 2027",
@@ -92,15 +92,15 @@ export const portfolioData = {
       title: "Responsive Web Design",
       issuer: "FreeCodeCamp",
       date: "2023",
-      //credential: "ABC123XYZ",
+      credential: "https://freecodecamp.org/certification/pragatikashyap/responsive-web-design",
       icon: "☁️",
     },
     {
       id: 2,
-      title: "Google AI Essentials",
-      issuer: "Google",
-      date: "2025",
-     // credential: "DEF456UVW",
+      title: "TCP/IP and Advanced Topics",
+      issuer: "University of Colorado System",
+      date: "2024",
+      credential: "https://coursera.org/verify/LHZLESYW8GRU",
       icon: "💻",
     },
     {
@@ -108,7 +108,7 @@ export const portfolioData = {
       title: "Fundamentals of Network Communication",
       issuer: "EDX Alumni via Coursera",
       date: "2024",
-      //credential: "GHI789RST",
+      credential: "https://coursera.org/verify/LMR8IQI9PIQ2",
       icon: "🎨",
     },
     {
@@ -116,7 +116,7 @@ export const portfolioData = {
       title: "Introduction to Hardware and Operating System",
       issuer: "IBM via Coursera",
       date: "2024",
-     // credential: "JKL012MNO",
+      credential: "https://coursera.org/verify/A5F5K5Y0UDEE",
       icon: "🚀",
     },
   ],
