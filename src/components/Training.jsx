@@ -19,9 +19,14 @@ const TrainingCard = ({ training, index }) => {
       <div className="text-blue-400 font-medium mb-2">{training.issuer}</div>
       <div className="flex items-center justify-between text-sm text-slate-400">
         <span>{training.date}</span>
-        <span className="px-3 py-1 bg-slate-700/50 rounded-full text-xs">
-          {training.credential}
-        </span>
+        <a
+          href={training.credential}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-2 px-3 py-1 bg-blue-600 text-white rounded-full text-xs font-semibold hover:bg-blue-500 transition"
+        >
+          🔗 View Credential
+        </a>
       </div>
     </motion.div>
   );

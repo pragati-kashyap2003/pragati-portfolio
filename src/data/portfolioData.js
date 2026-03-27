@@ -7,7 +7,7 @@ export const portfolioData = {
     email: "pragatikashyap2027@gmail.com",
     phone: "+91 9142068536",
     location: "Ranchi, Jharkhand",
-    avatar: "https://drive.google.com/file/d/1YjVR9-e7aNAUjyNWTWVgQcQCm6mFktUr/view?usp=sharing",
+    avatar: "https://drive.google.com/uc?export=view&id=1YjVR9-e7aNAUjyNWTWgQcQCm6mFktUr",
     cvUrl: "https://drive.google.com/file/d/1RvVs3ib30_joNn5nQh0qZ-Yh3233YK8W/view?usp=sharing", // Update this with your actual CV path
   },
 
@@ -68,8 +68,8 @@ export const portfolioData = {
     {
       id: 2,
       degree: "Intermediate",
-      institution: "Mount Litera Zee School",
-      location: "Varanasi, Uttar Pradesh",
+      institution: "Surendranath Centenary School",
+      location: "Ranchi, Jharkhand",
       period: "2020 - 2022",
      // description: "Valedictorian. Member of programming club and robotics team.",
       icon: "📚",
@@ -77,8 +77,8 @@ export const portfolioData = {
     {
       id: 2,
       degree: "Matriculate",
-      institution: "Mount Litera Zee School",
-      location: "Varanasi, Uttar Pradesh",
+      institution: "Bishop Westcott Girls' School",
+      location: "Ranchi, Jharkhand",
       period: "2019 - 2020",
      // description: "Valedictorian. Member of programming club and robotics team.",
       icon: "📚",
