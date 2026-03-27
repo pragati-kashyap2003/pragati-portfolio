@@ -7,8 +7,8 @@ export const portfolioData = {
     email: "pragatikashyap2027@gmail.com",
     phone: "+91 9142068536",
     location: "Ranchi, Jharkhand",
-    avatar: "https://drive.google.com/uc?export=view&id=1qZ_yal4YFcTWXqh_WgZSh2RmvnwDtFSU",
-    cvUrl: "https://docs.google.com/document/d/1SnP54LLQj5dhSbnGSB9Vxn_vppR2e8M1qjpyTro9DRM/edit?tab=t.0", // Update this with your actual CV path
+    avatar: "https://drive.google.com/file/d/1YjVR9-e7aNAUjyNWTWVgQcQCm6mFktUr/view?usp=sharing",
+    cvUrl: "https://drive.google.com/file/d/1RvVs3ib30_joNn5nQh0qZ-Yh3233YK8W/view?usp=sharing", // Update this with your actual CV path
   },
 
   // Social Links
