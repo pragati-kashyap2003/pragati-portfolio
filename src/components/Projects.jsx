@@ -10,12 +10,16 @@ const ProjectCard = ({ project, index }) => {
 
   return (
     <motion.div
-      ref={ref}
-      initial={{ opacity: 0, y: 30 }}
-      animate={isInView ? { opacity: 1, y: 0 } : {}}
-      transition={{ duration: 0.5, delay: index * 0.1 }}
-      className="group bg-slate-800/50 rounded-2xl overflow-hidden border border-slate-700 hover:border-blue-500/50 transition-all duration-300 hover:shadow-xl hover:shadow-blue-500/20"
-    >
+  ref={ref}
+  initial={{ opacity: 0, y: 30 }}
+  animate={isInView ? { opacity: 1, y: 0 } : {}}
+  transition={{ duration: 0.5, delay: index * 0.1 }}
+  whileHover={{ 
+    y: -10,
+    transition: { duration: 0.3 }
+  }}
+  className="group bg-slate-800/50 rounded-2xl overflow-hidden border border-slate-700 hover:border-blue-500 transition-all duration-300 hover:shadow-2xl hover:shadow-blue-500/40 cursor-pointer"
+>
       {/* Image */}
       <div className="relative overflow-hidden h-48">
         <img

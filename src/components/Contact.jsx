@@ -96,14 +96,25 @@ const Contact = () => {
               </div>
 
               {/* Download CV */}
-              <a
-                href={personal.cvUrl}
-                download
-                className="inline-flex items-center gap-3 px-6 py-3 bg-gradient-to-r from-blue-500 to-purple-600 text-white rounded-full font-medium hover:shadow-lg hover:shadow-blue-500/50 transition-all duration-300 hover:scale-105"
-              >
-                <HiDownload className="text-xl" />
-                Download CV
-              </a>
+             <motion.a
+  href={personal.cvUrl}
+  download
+  whileHover={{ 
+    scale: 1.1,
+    boxShadow: "0 10px 40px rgba(59, 130, 246, 0.6)"
+  }}
+  whileTap={{ scale: 0.95 }}
+  className="inline-flex items-center gap-3 px-6 py-3 bg-gradient-to-r from-blue-500 to-purple-600 text-white rounded-full font-medium transition-all duration-300 relative overflow-hidden group cursor-pointer"
+>
+  <motion.div
+    whileHover={{ rotate: 360 }}
+    transition={{ duration: 0.5 }}
+  >
+    <HiDownload className="text-xl" />
+  </motion.div>
+  <span className="relative z-10">Download CV</span>
+  <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-pink-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+</motion.a>
 
               {/* Contact Details */}
               <div className="space-y-4">

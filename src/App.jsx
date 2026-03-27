@@ -1,3 +1,4 @@
+import CustomCursor from './components/CustomCursor';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
@@ -12,6 +13,7 @@ import BackToTop from './components/BackToTop';
 function App() {
   return (
     <div className="min-h-screen">
+      <CustomCursor />
       <Navbar />
       <Hero />
       <About />

@@ -38,12 +38,17 @@ const SkillCategory = ({ title, skills, delay }) => {
 
   return (
     <motion.div
-      ref={ref}
-      initial={{ opacity: 0, y: 30 }}
-      animate={isInView ? { opacity: 1, y: 0 } : {}}
-      transition={{ duration: 0.6, delay }}
-      className="bg-slate-800/30 p-8 rounded-2xl border border-slate-700 hover:border-blue-500/50 transition-all duration-300"
-    >
+  ref={ref}
+  initial={{ opacity: 0, y: 30 }}
+  animate={isInView ? { opacity: 1, y: 0 } : {}}
+  transition={{ duration: 0.6, delay }}
+  whileHover={{ 
+    scale: 1.02,
+    boxShadow: "0 20px 60px rgba(59, 130, 246, 0.3)",
+    transition: { duration: 0.3 }
+  }}
+  className="bg-slate-800/30 p-8 rounded-2xl border border-slate-700 hover:border-blue-500 transition-all duration-300 cursor-pointer"
+>
       <h3 className="text-2xl font-bold mb-6 text-gradient">{title}</h3>
       {skills.map((skill, index) => (
         <SkillBar key={skill.name} skill={skill} index={index} />

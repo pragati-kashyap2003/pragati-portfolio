@@ -96,30 +96,58 @@ const Hero = () => {
             transition={{ delay: 0.8, duration: 0.6 }}
             className="flex gap-6 mb-12"
           >
-            <a
-              href={socials.github}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-3xl text-slate-400 hover:text-blue-400 transition-all duration-300 hover:scale-110"
-            >
-              <FaGithub />
-            </a>
-            <a
-              href={socials.linkedin}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-3xl text-slate-400 hover:text-blue-400 transition-all duration-300 hover:scale-110"
-            >
-              <FaLinkedin />
-            </a>
-            <a
-              href={socials.twitter}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-3xl text-slate-400 hover:text-blue-400 transition-all duration-300 hover:scale-110"
-            >
-              <FaTwitter />
-            </a>
+            {/* Social Links */}
+<motion.div
+  initial={{ y: 20, opacity: 0 }}
+  animate={{ y: 0, opacity: 1 }}
+  transition={{ delay: 0.8, duration: 0.6 }}
+  className="flex gap-6 mb-12"
+>
+  <motion.a
+    href={socials.github}
+    target="_blank"
+    rel="noopener noreferrer"
+    whileHover={{ 
+      scale: 1.2,
+      rotate: 5,
+      color: "#3b82f6"
+    }}
+    whileTap={{ scale: 0.9 }}
+    className="text-3xl text-slate-400 transition-all duration-300 cursor-pointer"
+  >
+    <FaGithub />
+  </motion.a>
+  
+  <motion.a
+    href={socials.linkedin}
+    target="_blank"
+    rel="noopener noreferrer"
+    whileHover={{ 
+      scale: 1.2,
+      rotate: -5,
+      color: "#3b82f6"
+    }}
+    whileTap={{ scale: 0.9 }}
+    className="text-3xl text-slate-400 transition-all duration-300 cursor-pointer"
+  >
+    <FaLinkedin />
+  </motion.a>
+  
+  <motion.a
+    href={socials.twitter}
+    target="_blank"
+    rel="noopener noreferrer"
+    whileHover={{ 
+      scale: 1.2,
+      rotate: 5,
+      color: "#3b82f6"
+    }}
+    whileTap={{ scale: 0.9 }}
+    className="text-3xl text-slate-400 transition-all duration-300 cursor-pointer"
+  >
+    <FaTwitter />
+  </motion.a>
+</motion.div>
           </motion.div>
 
           {/* Scroll Indicator */}

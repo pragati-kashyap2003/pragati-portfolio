@@ -8,12 +8,18 @@ const TrainingCard = ({ training, index }) => {
 
   return (
     <motion.div
-      ref={ref}
-      initial={{ opacity: 0, scale: 0.8 }}
-      animate={isInView ? { opacity: 1, scale: 1 } : {}}
-      transition={{ duration: 0.5, delay: index * 0.1 }}
-      className="bg-slate-800/50 p-6 rounded-2xl border border-slate-700 hover:border-blue-500/50 transition-all duration-300 hover:shadow-lg hover:shadow-blue-500/20 hover:scale-105"
-    >
+  ref={ref}
+  initial={{ opacity: 0, scale: 0.8 }}
+  animate={isInView ? { opacity: 1, scale: 1 } : {}}
+  transition={{ duration: 0.5, delay: index * 0.1 }}
+  whileHover={{ 
+    y: -8,
+    scale: 1.05,
+    boxShadow: "0 20px 50px rgba(59, 130, 246, 0.4)",
+    borderColor: "#3b82f6"
+  }}
+  className="bg-slate-800/50 p-6 rounded-2xl border border-slate-700 transition-all duration-300 cursor-pointer"
+>
       <div className="text-4xl mb-4">{training.icon}</div>
       <h3 className="text-xl font-bold mb-2 text-slate-100">{training.title}</h3>
       <div className="text-blue-400 font-medium mb-2">{training.issuer}</div>
